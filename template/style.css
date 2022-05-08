@@ -30,6 +30,18 @@ footer{
     color: #fcfdfd;
 }
 /*Common*/
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+h3{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
 a{
     text-decoration: none;
 }
@@ -54,4 +66,32 @@ a.brand{
 }
 .row.center{
     justify-content: center;
+}
+/*Image*/
+img{
+    box-sizing: .5rem;
+}
+img.medium{
+    max-width: 20rem;
+    width: 100%;
+}
+/*card*/
+.card{
+    border: 01rem #c0c0c0 solid;
+    background-color: #c0c0c0;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-body >*{
+    margin-top: 0.5rem;
+}
+.price{
+    font-size: 2rem;
+}
+.rating span{
+    color: #aa40f0;
+    margin: 0.1rem;
 }
