@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon --watch backend --exec node --experimental-modules  backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinarafatpro/online-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasinarafatpro/online-store/issues"
+  },
+  "homepage": "https://github.com/yasinarafatpro/online-store#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

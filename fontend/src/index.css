@@ -117,9 +117,15 @@ img{
 img.medium{
   max-width: 20rem;
   width: 100%;
+  max-height: 10rem;
+  height: 100%;
 }
 img.large{
+  max-width:50rem;
   width: 100%;
+  max-height:40rem;
+  height: 50%;
+  padding: 2rem;
 }
 /*card*/
 .card{
@@ -150,4 +156,22 @@ color: #20a020;
 }
 .error{
   color: #a02020;
+}
+.alert{
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info{
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger{
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}
+/*NavLink*/
+.nav-link{
+  color: #20a020;
+  padding: 1rem;
 }
