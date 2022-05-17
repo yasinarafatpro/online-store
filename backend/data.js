@@ -22,7 +22,7 @@ const data= {
             rating:4.0,
             reviews:10,
             description:'High Quality Product',
-            countInStock:1
+            countInStock:2
         },
         {
             id:'3',
